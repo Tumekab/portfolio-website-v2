@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 :root {
-    --purpleBlue: #500DFA;
-    --limeYellow: #F4FF9B;
+    --neonGreen: #67FFB2;
     --softBlack: #2a2a2a;
-    --softWhite: #F3F3F3;
 }
 
 body {
     font-family: 'Hammersmith One', sans-serif;
+    background-color: var(--softBlack);
+    color: var(--neonGreen);
 }
