@@ -2,7 +2,7 @@
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 4rem;
+    font-size: calc(40px + 1.5vw);
 }
 
 .box-frame-1 {
@@ -21,7 +21,7 @@ h1 {
 h2 {
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: calc(12px + 1.5vw);
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -37,7 +37,8 @@ h2 {
     border-color: var(--neonGreen);
     border-radius: 0.2rem;
     border-style: dashed;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: calc(12px + 1.5vw);
     padding: 5px 25px;
 }
 
@@ -46,3 +47,17 @@ h2 {
     /* background-color: #3B3C06; */
     /* background-color: #7e1d5b; */
 }
+
+/* media queries
+
+h2 {
+    font-size: 1.5rem;
+}
+
+use calc for font responsiveness
+
+links {
+    font-size: 1.5rem;
+    width: 7rem;
+    margin: auto;
+}    
