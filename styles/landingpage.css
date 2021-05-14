@@ -5,11 +5,17 @@ h1 {
     font-size: 4rem;
 }
 
-.box-frame {
+.box-frame-1 {
     width: 300px;
     height: 300px;
     border: solid 3px var(--neonGreen);
     margin: auto;
+}
+
+.box-frame-2 {
+    width: 300px;
+    height: 300px;
+    border: solid 3px var(--neonGreen);
 }
 
 h2 {
