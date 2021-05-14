@@ -12,11 +12,11 @@ h1 {
     margin: auto;
 }
 
-.box-frame-2 {
+/* .box-frame-2 {
     width: 300px;
     height: 300px;
     border: solid 3px var(--neonGreen);
-}
+} */
 
 h2 {
     display: flex;
