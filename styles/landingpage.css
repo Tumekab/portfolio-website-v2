@@ -31,22 +31,12 @@ h2 {
     border-color: var(--neonGreen);
     border-radius: 0.2rem;
     border-style: dashed;
-    /* color: var(--softBlack);
-    background-color: var(--neonGreen);
-    border-radius: 0.2rem; */
-    /* border-style: inset; */
     font-size: 2rem;
     padding: 5px 25px;
 }
 
-/* .links:hover {
-    color: var(--neonGreen);
-    background-color: var(--softBlack);
-    border-color: var(--neonGreen);
-    border-radius: 0.2rem;
-    border-style: dashed;
-} */
-
-/* a {
-    border: 4px solid var(--softBlack);
-} */
+.links:hover {
+    background-color: #074D5F;
+    /* background-color: #3B3C06; */
+    /* background-color: #7e1d5b; */
+}
